@@ -19,21 +19,60 @@ git https://github.com/thijsrijkers/semu.git
 
 These are the leaked hardware specs of the switch:
 
-```
-
 <table>
 <thead>
 <tr>
-<th>Change</th>
-<th>Description</th>
+<th>Item</th>
+<th>Hardware specification</th>
+<th>Functionality</th>
 </tr>
 </thead>
+  
 <tbody>
+  
 <tr>
-<td>memory_limit</td>
-<td>In your PHP.ini file of your XAMPP you need to change the memory_limit to 1024M because the data can be to great to handle for XAMPP</td>
+<td>CPU</td>
+<td>Four ARM Cortex-A57 cores, max 2 GHz
+L2 cache, 2 MB
+64-bit ARMv8
+Crypto-extensie on</td>
+<td>three cores</td>
 </tr>
+  
+<tr>
+<td>GPU</td>
+<td>Nvidia second gen Maxwell-architecture
+256 cuda-cores, max 1 GHz
+1024 FLOPS/cyclus
+Texture: 16 pixels/cyclus
+Fill: 14.4 pixels/cyclus</td>
+<td>TBD</td>
+</tr>
+  
+<tr>
+<td>Video Decoder</td>
+<td>H.265 (3840×2160 60 fps)
+H.264 (3840×2160 60 fps)
+VP9 (3840×2160 60 fps)
+VP8 (3840×2160 60 fps)
+Mpeg4 (1920×1080 120 fps)
+Mpeg2 (3840×2160 60 fps)</td>
+<td>Supports H.264, VP9, VP8.</td>
+</tr>
+
+<tr>
+<td>Main Memory</td>
+<td>Capacity: 4 GB, Bandwidth: 25.6 GB/s, VRAM: Shared</td>
+<td>Capacity: 3,25GB</td>
+</tr>
+
+  
+<tr>
+<td>System Memory</td>
+<td>Capacity: 32 GB, Max transfer rate: 400 MB/s</td>
+<td>Used as location for saving save data</td>
+</tr>
+  
 </tbody>
 </table>
-
-```
+<p><b><a href="https://assets.vg247.com/current//2017/02/switch_specs_leak_feb_1.png" target="_blank">Specifications</a></b></p>
