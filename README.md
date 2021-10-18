@@ -19,7 +19,7 @@ git https://github.com/thijsrijkers/semu.git
 
 These are the leaked hardware specs of the switch:
 
-```shell
+```
 
 <table>
 <thead>
