@@ -35,7 +35,7 @@ These are the leaked hardware specs of the switch:
 <td>Four ARM Cortex-A57 cores, max 2 GHz
 L2 cache, 2 MB
 64-bit ARMv8
-Crypto-extensie on</td>
+Crypto-extension on</td>
 <td>three cores</td>
 </tr>
   
