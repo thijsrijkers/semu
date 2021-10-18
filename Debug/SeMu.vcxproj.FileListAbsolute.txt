@@ -1,2 +1,4 @@
 C:\fork\thijs\semu\SeMu\Debug\SeMu.exe
 C:\fork\thijs\semu\Debug\SeMu.exe
+T:\semu\Debug\SeMu.exe
+T:\semu\Debug\SeMu.pdb

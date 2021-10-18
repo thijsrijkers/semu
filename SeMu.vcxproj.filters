@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{f1406886-375f-40e3-a1b1-2715675ebe13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cpu">
+      <UniqueIdentifier>{9927b38d-655a-44ca-a87f-5c9f1d7c9966}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SeMu.cpp">
@@ -20,6 +26,9 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.cpp">
+      <Filter>Source Files\src\cpu</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
