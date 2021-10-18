@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/Bb6kZIH.png" width="320" height="110"> </p>
+<p align="center"><img src="https://i.imgur.com/Bb6kZIH.png" width="260" height="140"> </p>
 
 <h3 align="center">SeMu</h3>
 
